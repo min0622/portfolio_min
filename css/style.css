@@ -609,9 +609,19 @@ td {
   position: relative;
   z-index: 1;
 
+  transition: all .1s linear;
+  /* width: 0; */
 }
 
-.link a::after {
+.change{
+  background-color: var(--Mcolor--);
+  color: #000;
+  border: 1px solid var(--Mcolor--);
+
+}
+
+
+/* .link a::after {
   display: block;
   content: '';
   position: absolute;
@@ -620,17 +630,19 @@ td {
   width: 0;
   height: 100%;
   z-index: -1;
+  z-index: 10;
 
 }
 
 .link a:hover:after {
+
   width: 100%;
   background-color: var(--Mcolor--);
   border: none;
   transition: all .1s linear;
   color: #000;
 
-}
+} */
 
 
 /* design */
