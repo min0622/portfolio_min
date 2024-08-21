@@ -662,10 +662,10 @@ td {
   display: flex;
   gap: 25px;
   position: relative;
+  font-size: 1.1rem;
 }
 .link li {
   border: 1px solid #fff;
-  font-size: 1.1rem;
 
   position: relative;
   
