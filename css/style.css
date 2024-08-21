@@ -82,8 +82,10 @@ header {
 
   /* position: fixed; */
   z-index: 9999;
-  /* background-color:transparent; */
 
+
+/* main top값도 수정함 */
+  display: none;
 }
 
 nav {
@@ -111,8 +113,8 @@ main {
   height: 100vh;
   /* height: calc(100vh - 20px); */
   position: relative;
-  top: -80px;
-  /* background-color: gold; */
+ 
+  /* top: -80px; */
 }
 
 .title_wrap {
@@ -595,7 +597,7 @@ td {
 }
 
 
-.link {
+/* .link {
   font-size: 1.1rem;
   margin-top: 52px;
   display: flex;
@@ -611,15 +613,24 @@ td {
   z-index: 1;
 
   transition: all .1s linear;
-  /* width: 0; */
-}
+  transition: all .5s linear;
+  
+} */
 
-.change{
+/* .change{
   background-color: var(--Mcolor--);
   color: #000;
   border: 1px solid var(--Mcolor--);
 
-}
+} */
+
+/* .link a:hover{
+  background-color: var(--Mcolor--);
+  color: #000;
+  border: 1px solid var(--Mcolor--);
+
+} */
+
 
 
 /* .link a::after {
@@ -638,12 +649,58 @@ td {
 .link a:hover:after {
 
   width: 100%;
-  background-color: var(--Mcolor--);
   border: none;
   transition: all .1s linear;
+
+  background-color: var(--Mcolor--);
   color: #000;
 
 } */
+
+.link {
+  margin-top: 52px;
+  display: flex;
+  gap: 25px;
+  position: relative;
+}
+.link li {
+  border: 1px solid #fff;
+  font-size: 1.1rem;
+
+  position: relative;
+  
+}
+.link li::after{
+  display: block;
+  content: '';
+  height: 100%;
+  background-color: var(--Mcolor--);
+  position: absolute;
+  top: 0;
+  left: 0;           
+  z-index: 1;
+  transition: all .2s linear;
+  
+  width: 0;
+}
+.link li a {
+  display: block;
+  padding: 12px 26px;
+  position: relative;
+  z-index: 2;
+} 
+.link li:hover::after{
+  width: 100%;
+  transition: all .2s linear;
+
+}
+.link li a:hover {
+font-weight: 600;
+  color: #222;
+}
+
+
+
 
 
 /* design */
