@@ -5,6 +5,12 @@
 
 @font-face {
   font-family: 'pre';
+  src: url(../font/Pretendard-Light.otf) format('opentype'),
+  url(../font/Pretendard-Light.ttf) format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'pre';
   src: url(../font/Pretendard-Regular.otf) format('opentype'),
   url(../font/Pretendard-Regular.ttf) format('truetype');
   font-weight: 400;
@@ -67,7 +73,7 @@ img {
 
 body {
   font-family: 'pre';
-  font-weight: 400;
+  font-weight: 300;
   color:#121212;
 }
 
@@ -418,6 +424,7 @@ main {
   transform: translateX(-50%);
   display: flex;
   justify-content: end;
+  font-weight: 400;
 }
 
 
@@ -522,6 +529,7 @@ margin-top: 10rem;
   position: relative;
 
   margin-top: 10rem;
+  font-weight: 400;
 
 }
 
@@ -574,7 +582,8 @@ margin-top: 10rem;
 }
 
 .about_text ul li:not(:last-of-type) {
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
+  margin-bottom: 16px;
 }
 
 .about_text span {
@@ -613,7 +622,8 @@ margin-top: 10rem;
 }
 
 .cer_text ul li:not(:last-of-type) {
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
+  margin-bottom: 16px;
 }
 
 .cer_text span {
@@ -709,7 +719,14 @@ margin-top: 10rem;
 .con_text {
   width: 42%;
 }
-
+.des{
+  margin-bottom: 36px;
+}
+.des p{
+  font-weight: 300;
+  font-size: 1.1rem;
+line-height: 165%;
+}
 table {
   width: 100%;
   border-top: #fff 2px solid;
@@ -1040,7 +1057,6 @@ gap: 140px 20px;
     max-width: 1200px;
     padding: 0 16px;
     top: 70%;
-
   }
 
   /* 공통 */
@@ -1265,7 +1281,8 @@ gap: 140px 20px;
 
   .about_text ul li:not(:last-of-type),
   .cer_text ul li:not(:last-of-type) {
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
+    margin-bottom: 12px;
   }
 
   .cer_text {
