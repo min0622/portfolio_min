@@ -34,11 +34,6 @@
 
 }
 
-@font-face {
-  font-family: 'mon';
-  src: url(../font/MonumentExtended-Ultrabold.otf);
-}
-
 
 * {
   margin: 0;
@@ -195,7 +190,7 @@ display: none;
   /* background-color: var(--Mcolor--); */
 
   position: fixed;
-  top: 60px;
+  top: 70px;
   right: 0;
   /* padding: 16px; */
 padding-right: 16px;
@@ -223,9 +218,7 @@ max-height: 0;
 } */
 #mo_menu .menulist ul li a{
   display: block;
-  /* width: 100%;
-  padding:8px;
-  padding-right: 16px; */
+  padding: 4px ;
   background-color: var(--Mcolor--);
 }
 
