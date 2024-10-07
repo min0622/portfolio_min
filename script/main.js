@@ -34,16 +34,16 @@ document.addEventListener('DOMContentLoaded', () => {
   // <헤더 색변화>
   function change() {
     const main = document.querySelector('main')
-    const work = document.getElementById('work')
+    const web = document.querySelector('.web')
     const menuWrap = document.querySelector('.menuWrap')
 
     // 요소들의 현재 위치를 가져옴
     const mainPosition = main.getBoundingClientRect();
-    const workPosition = work.getBoundingClientRect();
+    const webPosition = web.getBoundingClientRect();
 
 
-    // work섹션에서만 색변화
-    if (workPosition.top <= 80 && workPosition.bottom >= 80) {
+    // web섹션에서만 색변화
+    if (webPosition.top <= 80 && webPosition.bottom >= 80) {
       header.classList.add('bg_b');
       menuWrap.classList.add('color_w');
       spans.forEach((span) => {
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     console.log('mainPosition:', mainPosition);
-    console.log('workPosition:', workPosition);
+    console.log('webPosition:', webPosition);
 
   };
 
@@ -125,14 +125,14 @@ document.addEventListener('DOMContentLoaded', () => {
   //   // <헤더 색변화>
   //   function change() {
   //     const main = document.querySelector('main');
-  //     const work = document.getElementById('work');
+  //     const web = document.getElementById('web');
 
   //     // 요소들의 현재 위치를 가져옴
   //     const mainPosition = main.getBoundingClientRect();
-  //     const workPosition = work.getBoundingClientRect();
+  //     const webPosition = web.getBoundingClientRect();
 
-  //     // work섹션에서만 색변화
-  //     if (workPosition.top <= 80 && workPosition.bottom >= 80) {
+  //     // web섹션에서만 색변화
+  //     if (webPosition.top <= 80 && webPosition.bottom >= 80) {
   //       header.classList.add('bg_b');
   //       spans.forEach((span) => {
   //         span.style.backgroundColor = '#fff';
@@ -192,14 +192,14 @@ document.addEventListener('DOMContentLoaded', () => {
 //   // <헤더 색상 변화 함수>
 //   function change() {
 //     const main = document.querySelector('main');
-//     const work = document.getElementById('work');
+//     const web = document.getElementById('web');
     
 //     // 1.요소들의 현재 위치를 가져옴
 //     const mainPosition = main.getBoundingClientRect();
-//     const workPosition = work.getBoundingClientRect();
+//     const webPosition = web.getBoundingClientRect();
 
-//     // 2.work섹션에서 색 변화
-//     if (workPosition.top <= 80 && workPosition.bottom >= 80) {
+//     // 2.web섹션에서 색 변화
+//     if (webPosition.top <= 80 && webPosition.bottom >= 80) {
 //       header.classList.add('bg_b');
 //       spans.forEach((span) => {
 //         span.style.backgroundColor = '#fff';
