@@ -103,7 +103,7 @@ transition: all 0.2s linear 0s;
   justify-content: end;
 
 }
-/* .mo_ul.active, */
+/* .mo_ul.active */
  header.active {
   transform: translateY(-100%);
   transition: all 0.15s linear 0s;
@@ -147,9 +147,17 @@ header nav ul {
   font-size: 1.1rem;
   font-weight: 500;
   font-family: 'pre';
-  /* background-color: blueviolet; */
 }
 
+header nav ul li a{
+  display: block;
+  padding: 4px ;
+  
+}
+header nav ul li a:hover{
+  background-color: var(--Mcolor--);
+  color:#121212
+}
 
 /*menu_icon */
 .menuWrap{
@@ -175,7 +183,7 @@ display: none;
   width: 100%;
   height: 2px;
   background-color: #121212;
-  transition: all .5s;
+  transition: all .6s;
 }
 
 .menu span:nth-child(1).open{
@@ -228,25 +236,6 @@ max-height: 0;
   background-color: var(--Mcolor--);
 }
 
-/* header{
-  background-color: salmon;
-  height: 120px;
-} */
-
-/* #mo_menu .menulist ul{
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  gap: 20px;
-  font-weight: 500;
-  
-overflow: hidden;  
-transition: all .5s;
-} */
-
-/* #mo_menu .menulist ul.slidedown{
-  height: 100px;
-}   */
 
 /* main */
 main {
@@ -297,35 +286,6 @@ main {
 }
 
 
-/* 모두 사진 */
-/* .title_box{
-  width: 100%;
-  height: 100%;
-  position: relative;
-  display:flex;
-  justify-content: right;
-  align-items: end;
-
-}
-
-
-.title{
-  width: 83%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  position: relative;
- padding: 20px;
- padding-top: 0;
-} 
-
-
-.title figure img{
-  width: 100%;
-  height: 100%;
-} */
-
 
 
 
@@ -361,30 +321,6 @@ main {
 
 
 
-
-
-
-/* 글자 title */
-/* 
-.title{
-  line-height: 187px;
-  height: 187px;
-  background-color: #fff;
-  width: fit-content;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-} 
-.title p{
-  font-family: 'mon';
-  font-size: 260px;
-  width: 100%;
-  margin-left: 18px;
-}  */
-
-
-
-
 .tape {
 
   width: 142px;
@@ -392,10 +328,6 @@ main {
   position: absolute;
   top: -20px;
   left: 41%;
-
-  /* width:9%;
-  height: 24%;
- top: -5%; */
 
   display: flex;
   justify-content: center;
@@ -490,8 +422,6 @@ margin-top: 10rem;
 }
 
 .intro_left figure {
-  /* width: 478px;
-  height: 676px; */
   width: 536px;
   height: 757px;
 }
@@ -710,7 +640,7 @@ margin-top: 10rem;
 
 .con_title h3 {
   margin-top: 5px;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   font-size: 2.8rem;
   font-family: 'pre';
   font-weight: 400;
@@ -724,7 +654,7 @@ margin-top: 10rem;
 }
 .des p{
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 line-height: 165%;
 }
 table {
@@ -1753,6 +1683,10 @@ top: -12px;
     font-size: 2rem;
   }
 
+  .des p{
+    font-size: 1rem;
+  line-height: 150%;
+  }
   table {
     font-size: 1rem;
   }
