@@ -1603,7 +1603,8 @@ td {
 
   .con_title p,
   table {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    /* font-size: 1rem; */
   }
 
   .con_title h3 {
@@ -1611,7 +1612,8 @@ td {
   }
 
   .des p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    /* font-size: 1rem; */
     line-height: 150%;
   }
 
@@ -1627,6 +1629,8 @@ td {
   }
 
   .link li {
+    /* font-size: 1.1rem;
+    height: 48px; */
     font-size: 1rem;
     height: 46px;
   }
