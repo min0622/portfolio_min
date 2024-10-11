@@ -330,19 +330,30 @@ main {
   position: absolute;
   top: -20px;
   left: 41%;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
-
   font-family: "Caveat", cursive;
   font-size: 1.6rem;
   background-color: var(--Mcolor--);
-  transform: rotate(19deg);
+  transform: rotate(10deg);
+  /* transform: rotate(19deg); */
+
+  animation: move infinite ease 1.5s;
+
 }
-
-
+@keyframes move{
+  50%{
+    transform: rotate(40deg);
+  }
+  /* 50%{
+    transform: rotate(28deg);
+  } */
+100%{
+ /* transform: rotate(19deg); */
+ transform: rotate(10deg);
+}
+}
 
 /* 2개 */
 .text {
@@ -571,14 +582,14 @@ margin-top: 16rem;
 
 .skill ul {
   display: flex;
-  /* gap: 36px; */
+  justify-content: space-between;
 
 }
 
-.skill ul li {
+/* .skill ul li {
   margin: 6px 0;
   margin-right: 36px;
-}
+} */
 
 /* .skill .top {
   margin-bottom: 12px;
@@ -712,10 +723,12 @@ td {
 }
 .link li a {
   display: block;
-  padding: 12px 26px;
+  /* padding: 12px 26px; */
+  /* font-size: 1.1rem; */
+  font-size: 1.3rem;
+  padding: 14px 40px;
   position: relative;
   z-index: 2;
-  font-size: 1.1rem;
 } 
 .link li:hover::after{
   width: 100%;
@@ -864,8 +877,15 @@ font-weight: 600;
   font-size: 1.6rem;
   transform: rotate(19deg);
   background: #fff;
-}
 
+  animation: move_bm infinite ease 1.5s;
+  /* animation: move infinite ease 1.5s; */
+}
+@keyframes move_bm{
+100%{
+ transform: rotate(739deg);
+}
+}
 .btn_bg {
   width: 80px;
   height: 80px;
@@ -1014,6 +1034,9 @@ gap: 140px 20px;
   /* skill */
   .skill ul {
     flex-wrap: wrap;
+    justify-content: start;
+    gap: 30px 24px;
+    margin-top: 20px;
   }
 
 
@@ -1057,12 +1080,18 @@ gap: 140px 20px;
 
   }
 
-
+  .con_title p ,table{
+    font-size: 1.5rem;
+  }
 
   .con_text {
     width: 100%;
   }
-
+  .con_title h3 {
+    margin-top: 10px;
+    margin-bottom: 26px;
+    /* font-size: 1.8rem; */
+  }
 
 .des p{
   font-size: 1.5rem;
@@ -1071,7 +1100,7 @@ gap: 140px 20px;
 
   
   .link li a {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   } 
 
   /* design */
@@ -1159,10 +1188,10 @@ gap: 140px 20px;
     margin-right: 42px;
   }
 /* skill */
-.skill ul li {
+/* .skill ul li {
   margin: 4px 0;
     margin-right: 30px;
-}
+} */
 
   /* section2 */
 
@@ -1187,7 +1216,9 @@ gap: 140px 20px;
   .des p{
     font-size: 1.3rem;
   }
-
+  .link li a {
+    font-size: 1.3rem;
+  } 
 
   /* section3 */
 
@@ -1380,7 +1411,7 @@ height: 60px;
   font-size: 1.3rem;
 }
 .con_title h3 {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   font-size: 2.3rem;
 }
   table {
@@ -1392,7 +1423,7 @@ height: 60px;
     padding: 18px 12px;
   }
 .link {
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
  gap: 4%;
    margin-top: 35px;
 
@@ -1580,9 +1611,9 @@ top: -12px;
   }
 
   .con_title h3 {
-    margin-top: 2px;
-    margin-bottom: 25px;
-    font-size: 2rem;
+    /* margin-top: 2px;
+    margin-bottom: 25px; */
+    font-size: 1.8rem;
   }
 
   .des p{
@@ -1596,10 +1627,13 @@ top: -12px;
   }
 
   .link {
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
     gap: 16px;
     margin-top: 30px;
 
+  }
+  .link li a{
+    font-size: 1rem;
   }
 
   /* design */

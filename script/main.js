@@ -1,10 +1,4 @@
-// $(function(){
-//   $('.menu').click(function(){
-//     $(this).find('span').toggleClass('open');
-
-//   });
-
-// });
+AOS.init();
 
 document.addEventListener('DOMContentLoaded', () => {
 

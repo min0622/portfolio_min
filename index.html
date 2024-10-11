@@ -9,7 +9,9 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="./script/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
     <script src="./script/main.js" defer></script>
 </head>
 
@@ -59,19 +61,6 @@
 
 
 
-        <!-- mo_menu -->
-        <!-- <div id="mo_menu">
-            <div class="menulist">
-                <ul>
-                    <li><a href="#profile">Profile</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div> -->
-        <!-- //mo_menu -->
-
-
         <!-- main -->
         <main>
             <div class="color_box">
@@ -106,7 +95,9 @@
 
         <!-- intro -->
         <section id="intro">
-            <div class="intro_inner">
+          <h2 hidden>intro</h2>
+            <div class="intro_inner" data-aos="fade-up"
+     data-aos-duration="1100" >
 
                 <div class="intro_left">
                     <figure>
@@ -128,7 +119,8 @@
         </section>
 
         <!-- section1 -->
-        <section id="profile">
+        <section id="profile" data-aos="fade-up"
+        data-aos-duration="1100">
             <div class="subtitle">
                 <h2>Profile</h2>
             </div>
@@ -202,7 +194,7 @@
 
                 <div class="skill">
                     <h4>Skill</h4>
-                    <ul class="top">
+                    <!-- <ul class="top">
                         <li>PS</li>
                         <li>AI</li>
                         <li>AE</li>
@@ -214,7 +206,27 @@
                         <li>JavaScript</li>
                         <li>jQuery</li>
                         <li>Bootstrap</li>
+                    </ul> -->
+
+                    <ul class="top">
+                        <li><img src="img/ps.png" alt="ps"></li>
+                        <li><img src="img/ai.png" alt="ai"></li>
+                        <li><img src="img/ae.png" alt="ae"></li>
+                        <li><img src="img/boot.png" alt="Bootstrap"></li>
+                        <li><img src="img/figma.png" alt="figma"></li>
+                        <li><img src="img/js.png" alt="js"></li>
+                        <li><img src="img/html.png" alt="html"></li>
+                        <li><img src="img/css.png" alt="css"></li>
+                        <li><img src="img/jquery.png" alt="jQuery"></li>
+                       
                     </ul>
+                    <!-- <ul class="btm">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Bootstrap</li>
+                    </ul> -->
                 </div>
 
             </div>
@@ -232,11 +244,13 @@
             <section class="web">
                 <div class="web_inner">
 
-                    <div class="subtitle">
+                    <div class="subtitle" data-aos="fade-up"
+                    data-aos-duration="1100">
                         <h2>Web portfolio</h2>
                     </div>
 
-                    <article class="content con1">
+                    <article class="content con1" data-aos="fade-up"
+                    data-aos-duration="1100">
 
                         <div class="con_left con_text">
                             <div class="con_title">
@@ -264,17 +278,17 @@
                                 </tr>
                             </table>
 
-                            <!-- <ul class="link">
-                                <li>
+                            <ul class="link">
+                                <!-- <li>
                                     <a href="#">와이어프레임</a>
                                 </li>
                                 <li>
                                     <a href="#">기획서</a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a href="https://min0622.github.io/portfolio-02/">페이지</a>
                                 </li>
-                            </ul> -->
+                            </ul>
 
                         </div>
 
@@ -294,7 +308,8 @@
                         </div>
                     </article>
 
-                    <article class="content con2">
+                    <article class="content con2" data-aos="fade-up"
+                    data-aos-duration="1100">
 
                         <div class="con_left">
                             <a href="https://min0622.github.io/portfolio-01/">
@@ -333,14 +348,19 @@
                                     <td>HTML, CSS, JavaScript, jQuery, Swiper</td>
                                 </tr>
                             </table>
-
+                            <ul class="link">
+                              <li>
+                                  <a href="https://min0622.github.io/portfolio-02/">페이지</a>
+                              </li>
+                          </ul>
 
                         </div>
 
                     </article>
 
 
-                    <article class="content con3">
+                    <article class="content con3" data-aos="fade-up"
+                    data-aos-duration="1100">
 
                         <div class="con_left con_text">
                             <div class="con_title">
@@ -367,7 +387,11 @@
                                     <td>HTML, CSS, Bootstrap, JavaScript, jQuery, Swiper</td>
                                 </tr>
                             </table>
-
+                            <ul class="link">
+                              <li>
+                                  <a href="https://min0622.github.io/portfolio-02/">페이지</a>
+                              </li>
+                          </ul>
 
                         </div>
 
@@ -383,7 +407,8 @@
                     </article>
 
 
-                    <article class="content con4">
+                    <article class="content con4" data-aos="fade-up"
+                    data-aos-duration="1100">
 
                         <div class="con_left">
 
@@ -441,7 +466,8 @@
             <!-- //web -->
 
             <!-- design -->
-            <section class="design">
+            <section class="design" data-aos="fade-up"
+            data-aos-duration="1100">
                 <div class="subtitle">
 
                     <h2>Design portfolio</h2>
