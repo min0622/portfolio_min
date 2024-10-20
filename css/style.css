@@ -851,6 +851,12 @@ td {
 
 
 /* 반응형 */
+@media screen and (min-height:1081px) {
+  main{
+    height: 80vh;
+  }
+}
+
 @media screen and (max-width:1376px) {
 
   .pro_inner {
