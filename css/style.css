@@ -641,9 +641,9 @@ td {
 }
 
 .link {
-  margin-top: 52px;
+  margin-top: 36px;
   display: flex;
-  gap: 25px;
+  gap: 20px;
   position: relative;
 }
 
@@ -1092,7 +1092,7 @@ td {
 
   /* intro */
   #intro {
-    margin-top: 12rem;
+    margin-top: 11rem;
   }
 
   .intro_inner {
@@ -1101,7 +1101,7 @@ td {
 
   /* section1 */
   #profile {
-    margin-top: 12rem;
+    margin-top: 10rem;
   }
 
   .pro_inner {
@@ -1234,7 +1234,7 @@ td {
 
   /* section1 */
   #intro {
-    margin-top: 10.5rem;
+    margin-top: 10rem;
   }
 
   .intro_right {
@@ -1243,7 +1243,7 @@ td {
 
   /* section1 */
   #profile {
-    margin-top: 10rem;
+    margin-top: 8rem;
   }
 
   .pro_inner {
@@ -1406,7 +1406,6 @@ td {
 
   .link {
     gap: 16px;
-    margin-top: 35px;
     justify-content: space-between;
   }
 
