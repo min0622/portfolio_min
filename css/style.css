@@ -172,6 +172,7 @@ header nav ul li a:hover {
   flex-direction: column;
   justify-content: space-between;
   display: none;
+  cursor: pointer;
 }
 
 .menu span {
@@ -389,16 +390,9 @@ h2::after {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  /* padding: 9.4rem 0; */
 }
 
-/* .intro_left {
-  width: fit-content;
-  display: flex;
-  justify-content: center;
-  align-content: center;
 
-} */
 
 .intro_left figure {
   width: 536px;
@@ -560,7 +554,7 @@ h2::after {
   width: 100%;
   padding: 0 12px;
   padding-top: 8rem;
-  padding-bottom: 13rem;
+  padding-bottom: 12rem;
   margin: auto;
   position: relative;
 }
@@ -576,6 +570,7 @@ h2::after {
   justify-content: space-between;
   align-items: center;
   gap: 2%;
+
 }
 
 .content figure img {
@@ -585,7 +580,6 @@ h2::after {
 
 .content:not(:last-of-type) {
   margin-bottom: 12rem;
-
 }
 
 .con_title p {
@@ -690,10 +684,6 @@ td {
   color: #252525;
 
 }
-
-
-
-
 
 /* design */
 .design {
@@ -852,7 +842,7 @@ td {
 
 /* 반응형 */
 @media screen and (min-height:1081px) {
-  main{
+  main {
     height: 80vh;
   }
 }
@@ -983,11 +973,15 @@ td {
   /* section2 */
 
   /* web */
+  #web {
+    margin-top: 10rem;
+  }
+
   .web_inner {
     max-width: 1200px;
     padding: 0 16px;
-    padding-top: 6.3rem;
-    padding-bottom: 14rem;
+    padding-top: 5rem;
+    padding-bottom: 11.5rem;
   }
 
   .web_inner .subtitle {
@@ -1001,7 +995,7 @@ td {
   }
 
   .content:not(:last-of-type) {
-    margin-bottom: 14rem;
+    margin-bottom: 13rem;
 
   }
 
@@ -1045,6 +1039,7 @@ td {
   .design {
     max-width: 1200px;
     padding: 0 16px;
+    margin-top: 6rem
   }
 
   .item_box {
@@ -1599,7 +1594,7 @@ td {
 
   .web_inner {
     padding-top: 3rem;
-    padding-bottom: 7rem;
+    padding-bottom: 8rem;
   }
 
   .web_inner .subtitle {
