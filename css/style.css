@@ -438,12 +438,12 @@ h2::after {
 .pro_inner {
   max-width: 1376px;
   width: 100%;
-  margin: 6rem auto;
+  margin: 5rem auto;
   position: relative;
   font-size: 1.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 120px 0;
+  gap: 100px 0;
 }
 
 
@@ -486,7 +486,7 @@ h2::after {
 
 /* edu */
 .edu {
-  order: 3;
+  order: 4;
 }
 
 .edu p {
@@ -523,7 +523,7 @@ h2::after {
 
 /* skill */
 .skill {
-  order: 4;
+  order: 5;
 }
 
 .skill ul {
@@ -532,6 +532,10 @@ h2::after {
 
 }
 
+/* experience */
+.experience{
+  order: 2;
+}
 
 /* section2 */
 #work {
@@ -608,7 +612,7 @@ h2::after {
   line-height: 165%;
 }
 
-table {
+.web table {
   width: 100%;
   border-top: #fff 2px solid;
   border-bottom: #fff 2px solid;
@@ -616,7 +620,7 @@ table {
   font-size: 1.3rem;
 }
 
-th {
+.web th {
   font-family: 'pre';
   font-weight: 600;
   text-align: left;
@@ -625,13 +629,11 @@ th {
 
 }
 
-td {
+.web td {
   text-align: left;
   line-height: 150%;
   padding: 22px 15px;
   border-bottom: #fff 1px solid;
-
-
 }
 
 .link {
@@ -1006,7 +1008,7 @@ td {
   }
 
   .con_title p,
-  table {
+  .web table {
     font-size: 1.5rem;
   }
 
@@ -1153,7 +1155,7 @@ td {
 
 
   .con_title p,
-  table {
+  .web table {
     font-size: 1.3rem;
   }
 
@@ -1241,6 +1243,18 @@ td {
   .intro_right {
     width: 100%;
   }
+
+ 
+  .cer {
+    order: 4;
+  }
+  .edu {
+    order: 3;
+  }
+  .experience{
+    order: 2;
+  }
+
 
   /* section1 */
   #profile {
@@ -1395,13 +1409,12 @@ td {
     font-size: 2.3rem;
   }
 
-  table {
+  .web table {
     font-size: 1.3rem;
-
   }
 
-  th,
-  td {
+  .web th,
+  .web td {
     padding: 18px 12px;
   }
 
@@ -1556,18 +1569,11 @@ td {
   }
 
   /* edu */
-  .edu {
-    order: 2;
-  }
-
   .edu p {
     flex-direction: column;
   }
 
-  /* cer */
-  .cer {
-    order: 3;
-  }
+
 
   .cer_text {
     flex-direction: column;
@@ -1611,7 +1617,7 @@ td {
   }
 
   .con_title p,
-  table {
+  .web table {
     font-size: 1.1rem;
   }
 
@@ -1624,8 +1630,8 @@ td {
     line-height: 150%;
   }
 
-  th,
-  td {
+  .web th,
+  .web td {
     padding: 12px 10px;
   }
 
