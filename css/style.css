@@ -420,7 +420,27 @@ h2::after {
   margin-bottom: 30px;
 }
 
-
+.intro_more{
+  display: block;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.intro_more .icon{
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/intro_more.svg) center no-repeat;
+  background-size: cover;
+  transition: all .3s ease;
+  border-radius: 100%;
+}
+.intro_more:hover .icon{
+  background: url(../img/intro_more_active.svg) center no-repeat;
+}
 
 /* section_1 */
 #profile {
@@ -443,7 +463,7 @@ h2::after {
   font-size: 1.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 100px 0;
+  gap: 100px 20px;
 }
 
 
@@ -528,8 +548,8 @@ h2::after {
 
 .skill ul {
   display: flex;
-  justify-content: space-between;
-
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
 /* experience */
