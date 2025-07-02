@@ -1,6 +1,7 @@
 AOS.init();
 
 document.addEventListener('DOMContentLoaded', () => {
+  
 
   // 자주 사용되는 선택자들
   const menu = document.querySelector('.menu')
