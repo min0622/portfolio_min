@@ -433,13 +433,13 @@ h2::after {
   display: block;
   width: 20px;
   height: 20px;
-  background: url(../img/intro_more.svg) center no-repeat;
+  background: url(../img/intro_more.png) center no-repeat;
   background-size: cover;
   transition: all .3s ease;
   border-radius: 100%;
 }
 .intro_more:hover .icon{
-  background: url(../img/intro_more_active.svg) center no-repeat;
+  background: url(../img/intro_more_active.png) center no-repeat;
 }
 
 /* section_1 */
