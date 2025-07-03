@@ -427,11 +427,13 @@ h2::after {
   align-items: center;
   gap: 12px;
   border: 1px solid #121212;
+  background-color: #fff;
   font-size: 1.3rem;
   width: fit-content;
   padding: 0 24px;
   height: 60px;
   line-height: 60px;
+  transition: all .3s ease;
 }
 .intro_more .icon{
   display: block;
@@ -441,6 +443,14 @@ h2::after {
   background-size: cover;
 }
 
+.intro_more:hover{
+  background-color: #121212;
+  color: #fff;
+}
+.intro_more:hover .icon{
+  background: url(../img/view_more_white.svg) center no-repeat;
+
+}
 /* section_1 */
 #profile {
   max-width: 1680px;
