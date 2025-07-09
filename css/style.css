@@ -580,7 +580,7 @@ h2::after {
   position: relative;
   background-color: #121212;
   color: #fff;
-}
+} 
 .company_works ul{
   display: flex;
   flex-wrap: wrap;
