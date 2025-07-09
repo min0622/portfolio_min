@@ -574,12 +574,44 @@ h2::after {
   margin-top: 12rem;
 }
 
-/* web */
+/* work_projects */
+.work_project{
+  width: 100%;
+  position: relative;
+  background-color: #121212;
+  color: #fff;
+}
+.company_works ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2%;
+  row-gap: 6rem;
+}
+.company_works ul li{
+  flex-basis: 49%;
+}
+.company_works .txt_box{
+  margin-top: 2rem;
+}
+.company_works .txt_box h5{
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.company_works .txt_box p{
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+
+
+/* personal_project */
 .web {
   width: 100%;
   position: relative;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #121212;
 }
 
 .web_inner {
@@ -617,6 +649,7 @@ h2::after {
 
 .con_title p {
   font-size: 1.3rem;
+  font-weight: 400;
 }
 
 .con_title h3 {
@@ -624,7 +657,7 @@ h2::after {
   margin-bottom: 36px;
   font-size: 2.8rem;
   font-family: 'pre';
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .con_text {
@@ -636,15 +669,15 @@ h2::after {
 }
 
 .des p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2rem;
   line-height: 165%;
 }
 
 .web table {
   width: 100%;
-  border-top: #fff 2px solid;
-  border-bottom: #fff 2px solid;
+  border-top: #121212 2px solid;
+  border-bottom: #121212 2px solid;
   border-collapse: collapse;
   font-size: 1.3rem;
 }
@@ -654,7 +687,7 @@ h2::after {
   font-weight: 600;
   text-align: left;
   padding: 22px 15px;
-  border-bottom: #fff 1px solid;
+  border-bottom: #121212 1px solid;
 
 }
 
@@ -662,7 +695,7 @@ h2::after {
   text-align: left;
   line-height: 150%;
   padding: 22px 15px;
-  border-bottom: #fff 1px solid;
+  border-bottom: #121212 1px solid;
 }
 
 .link {
@@ -673,19 +706,20 @@ h2::after {
 }
 
 .link li {
-  border: 1px solid #fff;
+  border: 1px solid #121212;
   position: relative;
   font-size: 1.3rem;
   width: 200px;
   height: 60px;
   line-height: 60px;
+  font-weight: 400;
 }
 
 .link li::after {
   display: block;
   content: '';
   height: 100%;
-  background-color: var(--Mcolor--);
+  background-color: #121212;
   position: absolute;
   top: 0;
   left: 0;
@@ -707,13 +741,10 @@ h2::after {
 .link li:hover::after {
   width: 100%;
   transition: all .2s linear;
-
 }
 
 .link li a:hover {
-  font-weight: 600;
-  color: #252525;
-
+  color: #fff;
 }
 
 /* design */
@@ -1002,19 +1033,34 @@ h2::after {
 
 
   /* section2 */
-
-  /* web */
   #web {
     margin-top: 10rem;
   }
-
+  /*  work_project */
+  .work_project .web_inner{
+    padding-bottom: 10rem;
+  }
+  .company_works ul{
+    gap: unset;
+    row-gap: 8rem;
+  }
+  .company_works ul li{
+    flex-basis: 100%;
+    padding: 0 42px;
+  }
+  .company_works .txt_box h5{
+    font-size: 2.2rem ;
+  }
+  /* personal_project */
   .web_inner {
     max-width: 1200px;
     padding: 0 16px;
     padding-top: 5rem;
     padding-bottom: 11.5rem;
   }
-
+  .company_works .txt_box p{
+    font-size: 1.4rem;
+  }
   .web_inner .subtitle {
     margin-bottom: 5rem;
   }
@@ -1299,10 +1345,10 @@ h2::after {
 
   /* section2 */
 
+
   .web_inner {
     padding-top: 4rem;
     padding-bottom: 9rem;
-
   }
 
   .web_inner .subtitle {
@@ -1424,8 +1470,21 @@ h2::after {
   }
 
   /* section2 */
-  /* web */
-
+  /* work_project */
+  .company_works ul li{
+    padding: 0 10px;
+  }
+  .company_works .txt_box h5{
+    font-size: 1.9rem;
+  }
+  .company_works .txt_box p{
+    font-size: 1.2rem;
+    margin-top: 12px;
+  }
+  .company_works .txt_box{
+    margin-top: 1.5rem;
+  }
+  /* personal_project */
   .content {
     padding: 0 10px;
     gap: 60px;
@@ -1588,8 +1647,8 @@ h2::after {
 
   .intro_more{
     font-size: 1rem ;
-    height: 60px;
-    line-height: 60px;
+    height: 48px;
+    line-height: 48px;
   }
 
   /* section1 */
@@ -1624,15 +1683,24 @@ h2::after {
     width: 52px;
 
   }
-
-
+  
   /* section2 */
-
   /* web */
   #work {
     margin-top: 6rem;
   }
-
+  /* work_project */
+  .work_project .web_inner{
+    padding-bottom: 7rem;
+  }
+  .company_works .txt_box h5{
+    font-size: 1.7rem;
+  }
+  .company_works .txt_box p{
+    font-size: 1.1rem;
+    margin-top: 8px;
+  }
+  /* personal_project */
   .web_inner {
     padding-top: 3rem;
     padding-bottom: 8rem;
