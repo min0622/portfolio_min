@@ -1693,8 +1693,11 @@ h2::after {
   .work_project .web_inner{
     padding-bottom: 7rem;
   }
+  .company_works ul{
+    row-gap: 6.5rem;
+  }
   .company_works .txt_box h5{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
   .company_works .txt_box p{
     font-size: 1.1rem;
