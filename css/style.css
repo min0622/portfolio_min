@@ -1649,6 +1649,7 @@ h2::after {
     font-size: 1rem ;
     height: 48px;
     line-height: 48px;
+    margin-top: 50px;
   }
 
   /* section1 */
@@ -1691,7 +1692,7 @@ h2::after {
   }
   /* work_project */
   .work_project .web_inner{
-    padding-bottom: 7rem;
+    padding-bottom: 8.5rem;
   }
   .company_works ul{
     row-gap: 6.5rem;
